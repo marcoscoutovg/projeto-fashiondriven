@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="pt_BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flash Driven</title>
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <header>
+        <img src="./img/Logo.png" class="logo">
+    </header>
+
+    <main>
+        <div class="containerEsquerda">    
+            <div class="escolhaModelo">
+                <p class="tituloEscolha">Escolha o modelo</p>
+
+                <div class="caixaModelo">
+                    <div class="tShirt">    
+                        <img src="./img/tshirt.png" alt="tshirt" class="imgEscolha">
+                        <p class="nome">T-shirt</p>
+                    </div>
+
+                    <div class="camiseta">
+                        <img src="./img/Camiseta.png" alt="camiseta" class="imgEscolha">
+                        <p class="nome">Camiseta</p>
+                    </div>
+
+                    <div class="mangaLonga">
+                        <img src="./img/Mangalonga.png" alt="Manga longa" class="imgEscolha">
+                        <p class="nome">Manga longa</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="escolhaGola">
+                <p class="tituloEscolha">Escolha a gola</p>
+
+                <div class="caixaGola">
+                    <div class="golaV">    
+                        <img src="./img/GolaV.png" alt="gola V" class="imgEscolha">
+                        <p class="nome">Gola V</p>
+                    </div>
+
+                    <div class="golaRedonda">
+                        <img src="./img/GolaRedonda.png" alt="Gola Redonda" class="imgEscolha">
+                        <p class="nome">Gola Redonda</p>
+                    </div>
+
+                    <div class="golaPolo">
+                        <img src="./img/GolaPolo.png" alt="Gola Polo" class="imgEscolha">
+                        <p class="nome">Gola polo</p>
+                    </div>
+                </div>
+            </div>
+            <div class="escolhaTecido">
+                <p class="tituloEscolha">Escolha o tecido</p>
+
+                <div class="caixaTecido">
+                    <div class="seda">    
+                        <img src="./img/Seda.png" alt="seda" class="imgEscolha">
+                        <p class="nome">Seda</p>
+                    </div>
+
+                    <div class="algodao">
+                        <img src="./img/Algodão.png" alt="Algodão" class="imgEscolha">
+                        <p class="nome">Algodão</p>
+                    </div>
+
+                    <div class="poliester">
+                        <img src="./img/Poliester.png" alt="Poliester" class="imgEscolha">
+                        <p class="nome">Poliéster</p>
+                    </div>
+                </div>
+            </div>
+            <div class="imgRef">
+                <p class="textoImg">Imagem de referência</p>
+                <input type="text" placeholder="Insira o link">
+            </div>
+            <button onclick="ativarBotao(this)"><p class="textoBotao">Confirmar pedido</p></button>
+        </div>
+
+        <div class="containerDireita">
+            <img src="./img/ilustração.png" class="imagemPrincipal">
+        </div>
+    </main>
+
+    <footer>
+        <p class="ultimosPedidos">Últimos pedidos</p>
+        <div class="opcoesRoupas"></div>
+    </footer>
+    
+</body>
+<script src="scripts.js"></script>
+</html>
